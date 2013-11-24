@@ -2,7 +2,7 @@ title:            nikshmakov.me
 description:      Technical blog about software development.
 disqus_shortname: nikshmakovme
 #Comment out url when working locally to resolve base urls correctly
-url:              http://localhost:4000
+url:              http://nikshmakov.me
 
 # Owner/author information
 owner:
