@@ -1,6 +1,5 @@
 title:            nikshmakov.me
 description:      Technical blog about software development.
-disqus_shortname: nikshmakovme
 #Comment out url when working locally to resolve base urls correctly
 url:              http://nikshmakov.me
 
