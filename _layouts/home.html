@@ -18,11 +18,11 @@
   {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
 </div><!-- /.image-wrap -->{% endif %}
 
-<div id="main" role="main" itemprop="mainContentOfPage">
+<div id="main-wrapper">
   <div class="article-author-top">
     {% include author-bio.html %}
   </div>
-  <div id="index" itemscope itemtype="http://schema.org/Blog">
+  <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
     <h1 itemprop="name"><a href="{{ site.url}}/articles">Articles</a></h1>
     {% for post in site.categories.articles limit:5 %}    
     <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
