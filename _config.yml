@@ -32,7 +32,9 @@ links:
   - title: About
     url: /about
   - title: Articles (Russian)
-    url: /articles
+    url: /articles-rus
+  - title: Articles (English)
+    url: /articles-eng
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Moscow
