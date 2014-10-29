@@ -6,7 +6,7 @@ tags: [jekyll]
 lang: eng
 ---
 Some time ago I decided to write a part of my blog in english. There already was articles written in russian, thus I needed to apply some filtering mechanism to separate they into different pages.
-At first, I had moved my old posts index page template into _includes directory and created two different layouts for both languages with simple content:
+At first, I had moved my old posts index page template into _includes directory and created two different layouts for both languages with simple content
 
 {% highlight ruby %}
 {% raw %}
