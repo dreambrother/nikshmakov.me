@@ -76,6 +76,12 @@ figcaption {
 	}
 }
 
+.post-date {
+	text-align: right;
+	.font(12);
+	color: lighten(@text-color, 30);
+}
+
 // Note text
 // --------------------------------------------------
 .notice {
@@ -110,7 +116,6 @@ blockquote {
 // Paragraphs
 // --------------------------------------------------
 p {
-	margin: 0 0 @indent-var;
 	& + p {
 		//siblings indentation
 		//text-indent: @indent-var;
