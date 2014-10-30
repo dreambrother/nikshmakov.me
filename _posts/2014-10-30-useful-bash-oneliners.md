@@ -5,7 +5,7 @@ category: articles
 tags: [bash, unix]
 lang: eng
 ---
-I've collected a few useful Bash one-liners and want to share them with you. Unfortunately, this idea came to me very late and many snippets I've written so far were lost. But I will try to collect new ones and publish them.
+I've collected a few useful Bash one-liners and want to share them with you. Unfortunately this idea came to me very late and many snippets I've written so far were lost. But I will try to collect new ones and publish them.
 
 Iteration over another program result
 
