@@ -39,6 +39,16 @@ Take value of 10th column, remove trailing comma and print value if it's greater
 echo "2014-09-26 15:40:58,780 ...id... type=UploadToDefault, stage=payloadInfo, duration=0.034, sha256=..., md5=..., media-type=image, content_length=1922695, mime-type=image/jpeg, success=true" | awk '{ split($10, arr, "="); str=substr(arr[2],0,length(arr[2])-1); if ((str+0) > 1000000) print str }'
 {% endhighlight %}
 
+Rename files with the same name in all subdirectories
+{% highlight bash %}
+for subdir in *; do mv $subdir/file.txt $subdir/file2.txt; done;
+{% endhighlight %}
+
+Rename files without loop
+{% highlight bash %}
+ls | xargs -n1 -I % mv %/file.txt %/file2.txt
+{% endhighlight %}
+
 P.S.: [amazing tool](http://www.explainshell.com/)
 
 **To be continued...**
